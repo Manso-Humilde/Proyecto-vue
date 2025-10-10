@@ -3,6 +3,7 @@
     <div class="container">
         <Sidebar></Sidebar>
         <div class="content">
+             <h3>Esta casilla me copia en el Header</h3>
             <input type="texto" v-model="texto">
             {{ texto }}
             <router-view></router-view>

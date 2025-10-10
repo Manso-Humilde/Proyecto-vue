@@ -1,6 +1,6 @@
 <template>
     <div class="header">
-       {{ mensajeRecibido }} <weather></weather>
+      <weather></weather> {{ mensajeRecibido }} 
     </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-<h1>Hola Mundo</h1>
+<h2>Contador</h2>
 <p>{{ contador }}</p> 
 <button @click="incrementar">Incrementar</button>
 <button @click="decrementar">Decrementar</button>
@@ -19,9 +19,7 @@ const decrementar =() => {
 <style scoped>
 p {
   color: red;
+  font-size: 20px;
 }
 
-h1 {
-  color: blue;
-}
 </style>
